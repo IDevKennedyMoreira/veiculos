@@ -11,4 +11,5 @@ class VeiculoSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Veiculo
+        read_only_fields = ['id']
         fields = '__all__'
