@@ -35,6 +35,7 @@ Para instalar e configurar o projeto, siga os passos abaixo:
 
 1. Clone este repositório:
    git clone https://github.com/IDevKennedyMoreira/veiculos.git
+   cd veiculos
    cd api
 
 2. Crie um ambiente virtual e ative-o:
