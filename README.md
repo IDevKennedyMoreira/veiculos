@@ -37,7 +37,6 @@ Para instalar e configurar o projeto, siga os passos abaixo:
    ```bash
    git clone https://github.com/IDevKennedyMoreira/veiculos.git
    cd veiculos
-   
 
 2. Crie um ambiente virtual e ative-o:
    ```bash
