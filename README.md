@@ -34,24 +34,32 @@ Esta é uma API RESTful desenvolvida em Django usando Django REST Framework. A A
 Para instalar e configurar o projeto, siga os passos abaixo:
 
 1. Clone este repositório:
+   ```bash
    git clone https://github.com/IDevKennedyMoreira/veiculos.git
    cd veiculos
-   cd api
+   
 
 2. Crie um ambiente virtual e ative-o:
+   ```bash
    python -m venv venv
-   source venv/bin/activate  # Para Windows use: venv\Scripts\activate
+   source venv/bin/activate 
+   Para Windows use: venv\Scripts\activate.bat
 
 3. Instale as dependências:
+   ```bash
    pip install -r requirements.txt
+   cd api
 
 4. Faça as migrações do banco de dados:
+   ```bash
    python manage.py migrate
 
 5. Crie um superusuário (opcional, para acessar o painel administrativo):
+   ```bash
    python manage.py createsuperuser
 
 6. Execute o servidor:
+   ```bash
    python manage.py runserver
 
 ## Uso 
